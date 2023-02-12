@@ -1,0 +1,115 @@
+* {
+    font-family: arial;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+header .container {
+    width: 80%;
+    margin: 15px auto;
+    color: #AAA;
+    padding: 20px;
+    border-bottom: 1px solid #999;
+    font-size: 25px;
+}
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+    padding: 0 15px;
+}
+
+.well {
+    background-color: #EEE;
+    border: none;
+    text-align: center;
+    padding: 30px;
+}
+.well p {
+    margin: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+}
+
+.m-auto {
+    margin: auto;
+}
+.btndelete {
+    background-color: rgb(171, 24, 29);
+    color: white;
+    border: none;
+}
+.btn-primary {
+    background-color: #1167c4;
+    color: white;
+    border: 1px solid #1167c4;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+.btn:hover {
+    box-shadow: 2px 5px 3px 0px #888;
+}
+footer {
+    display: block;
+}
+footer .container {
+    padding: 20px;
+    border-top: 1px solid #999;
+    font-size: 14px;
+}
+footer p {
+    color: #AAA;
+}
+p {
+    font-weight: bold;
+    color: #333;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.webwell {
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.webwell h2 {
+    width: 30%;
+    color: #333;
+}
+.webwell a {
+    text-decoration: none;
+}
